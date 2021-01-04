@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proud to be part of FSCP</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kristi&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial", cursive;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      .main_header {
+        width: 100vw;
+        height: 100vh;
+        background-color: hsl(0, 0%, 94%);
+        display: grid;
+        place-items: center;
+      }
+
+      .center_div {
+        min-width: 50vw;
+        height: 40vh;
+        color: #000;
+        text-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+        font-size: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_header">
+      <div class="center_div">
+        <p>
+          <center> We have reach 1K FTE's
+          <br />
+          🎂Proud to be part of FSCP!🎂
+        </p>
+      </div>
+    </div>
+    <script src="D:\Immanuelsamson_SP\OneDrive%20-%20Infosys%20Limited\Sample\confetti.js-master\confetti.js"> </script>
+	<!-- <script src="https://infosystechnologies-my.sharepoint.com/:u:/g/personal/immanuelsamson_sp_ad_infosys_com/EcPmRaHhiHZGgrG2T5Ic5VMB971_SCSXoOxFfnyDZO3z5g?e=emjwJE/confetti.js"> </script> -->
+   
+   <!-- </script> -->
+   
+   <script>
+      //   confetti.stop();
+
+      const startit = () => {
+        setTimeout(function () {
+          console.log("start");
+          confetti.start();
+        }, 1000);
+      };
+
+      const stopit = () => {
+        setTimeout(function () {
+          console.log("stop");
+          confetti.stop();
+        }, 6000);
+      };
+
+      startit();
+      stopit();
+    </script>
+  </body>
+</html>
